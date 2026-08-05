@@ -1,0 +1,120 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+header{
+background:black;
+padding:20px;
+text-align:center;
+border-bottom:2px solid gold;
+}
+
+header h1{
+color:gold;
+font-size:36px;
+}
+
+header p{
+color:#ddd;
+margin-top:5px;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:gold;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+background:#1a1a1a;
+}
+
+.hero h2{
+font-size:42px;
+color:gold;
+}
+
+.hero p{
+margin:15px 0;
+font-size:18px;
+}
+
+.hero button{
+padding:12px 30px;
+background:gold;
+border:none;
+font-weight:bold;
+border-radius:8px;
+cursor:pointer;
+}
+
+.products{
+padding:40px 20px;
+}
+
+.products h2{
+text-align:center;
+color:gold;
+margin-bottom:30px;
+}
+
+.card{
+background:#222;
+width:300px;
+margin:20px auto;
+padding:20px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 0 15px rgba(255,215,0,.3);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.card h3{
+margin:15px 0;
+}
+
+.card p{
+font-size:20px;
+color:gold;
+margin-bottom:15px;
+}
+
+.card button{
+padding:10px 25px;
+background:gold;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-weight:bold;
+}
+
+footer{
+background:black;
+padding:30px;
+text-align:center;
+margin-top:40px;
+border-top:2px solid gold;
+}
